@@ -1,0 +1,6 @@
+framework module Pods_PorAprender {
+  umbrella header "Pods-PorAprender-umbrella.h"
+
+  export *
+  module * { export * }
+}

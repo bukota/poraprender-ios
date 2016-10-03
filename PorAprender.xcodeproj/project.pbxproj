@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		464AB30A925605965304D670 /* Pods_PorAprender_Development.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8849FA7E0769CDA38D4CD7F9 /* Pods_PorAprender_Development.framework */; };
+		7BF73876F4A94A02D3DAF0D3 /* Pods_PorAprenderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D675C53D30AC44AD5770203 /* Pods_PorAprenderTests.framework */; };
+		B87185F51DA2AFE400D95863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87185F41DA2AFE400D95863 /* AppDelegate.swift */; };
+		B87185F71DA2AFE400D95863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87185F61DA2AFE400D95863 /* ViewController.swift */; };
+		B87185FA1DA2AFE400D95863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87185F81DA2AFE400D95863 /* Main.storyboard */; };
+		B87185FC1DA2AFE400D95863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B87185FB1DA2AFE400D95863 /* Assets.xcassets */; };
+		B87185FF1DA2AFE400D95863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87185FD1DA2AFE400D95863 /* LaunchScreen.storyboard */; };
+		B871860A1DA2AFE400D95863 /* PorAprenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87186091DA2AFE400D95863 /* PorAprenderTests.swift */; };
+		B87186161DA2B6A700D95863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87185F61DA2AFE400D95863 /* ViewController.swift */; };
+		B87186171DA2B6A700D95863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87185F41DA2AFE400D95863 /* AppDelegate.swift */; };
+		B871861A1DA2B6A700D95863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87185FD1DA2AFE400D95863 /* LaunchScreen.storyboard */; };
+		B871861B1DA2B6A700D95863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B87185FB1DA2AFE400D95863 /* Assets.xcassets */; };
+		B871861C1DA2B6A700D95863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87185F81DA2AFE400D95863 /* Main.storyboard */; };
+		C84FADCD27659779A091063F /* Pods_PorAprender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0D6B99B2EE4BF7FC1CF8D3 /* Pods_PorAprender.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B87186061DA2AFE400D95863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B87185E91DA2AFE300D95863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B87185F01DA2AFE400D95863;
+			remoteInfo = PorAprender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37079968B48156D026321AE9 /* Pods-PorAprenderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorAprenderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PorAprenderTests/Pods-PorAprenderTests.release.xcconfig"; sourceTree = "<group>"; };
+		48B68A0600337791C611A268 /* Pods-PorAprenderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorAprenderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PorAprenderTests/Pods-PorAprenderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4ECA935DB7A9FF2275410370 /* Pods-PorAprender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorAprender.release.xcconfig"; path = "Pods/Target Support Files/Pods-PorAprender/Pods-PorAprender.release.xcconfig"; sourceTree = "<group>"; };
+		8849FA7E0769CDA38D4CD7F9 /* Pods_PorAprender_Development.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PorAprender_Development.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0D6B99B2EE4BF7FC1CF8D3 /* Pods_PorAprender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PorAprender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D675C53D30AC44AD5770203 /* Pods_PorAprenderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PorAprenderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8611B1801CEC0910986BB0 /* Pods-PorAprender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorAprender.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PorAprender/Pods-PorAprender.debug.xcconfig"; sourceTree = "<group>"; };
+		B87185F11DA2AFE400D95863 /* PorAprender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PorAprender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87185F41DA2AFE400D95863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B87185F61DA2AFE400D95863 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B87185F91DA2AFE400D95863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B87185FB1DA2AFE400D95863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B87185FE1DA2AFE400D95863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B87186001DA2AFE400D95863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B87186051DA2AFE400D95863 /* PorAprenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PorAprenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87186091DA2AFE400D95863 /* PorAprenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorAprenderTests.swift; sourceTree = "<group>"; };
+		B871860B1DA2AFE400D95863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B87186201DA2B6A700D95863 /* PorAprender Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PorAprender Development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87186211DA2B6A700D95863 /* PorAprender copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PorAprender copy-Info.plist"; path = "/Users/nicolasbukstein/Proyectos/poraprender-ios/PorAprender/PorAprender copy-Info.plist"; sourceTree = "<absolute>"; };
+		E2C671EE266D054D64275E1A /* Pods-PorAprender Development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorAprender Development.release.xcconfig"; path = "Pods/Target Support Files/Pods-PorAprender Development/Pods-PorAprender Development.release.xcconfig"; sourceTree = "<group>"; };
+		FCA64E2D19DC3850199011E3 /* Pods-PorAprender Development.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorAprender Development.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PorAprender Development/Pods-PorAprender Development.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B87185EE1DA2AFE400D95863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84FADCD27659779A091063F /* Pods_PorAprender.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87186021DA2AFE400D95863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF73876F4A94A02D3DAF0D3 /* Pods_PorAprenderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87186181DA2B6A700D95863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464AB30A925605965304D670 /* Pods_PorAprender_Development.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6659588A7D4E1E047F68837C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D0D6B99B2EE4BF7FC1CF8D3 /* Pods_PorAprender.framework */,
+				8849FA7E0769CDA38D4CD7F9 /* Pods_PorAprender_Development.framework */,
+				8D675C53D30AC44AD5770203 /* Pods_PorAprenderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FAEF3D4F27E07123643BF41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB8611B1801CEC0910986BB0 /* Pods-PorAprender.debug.xcconfig */,
+				4ECA935DB7A9FF2275410370 /* Pods-PorAprender.release.xcconfig */,
+				FCA64E2D19DC3850199011E3 /* Pods-PorAprender Development.debug.xcconfig */,
+				E2C671EE266D054D64275E1A /* Pods-PorAprender Development.release.xcconfig */,
+				48B68A0600337791C611A268 /* Pods-PorAprenderTests.debug.xcconfig */,
+				37079968B48156D026321AE9 /* Pods-PorAprenderTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B87185E81DA2AFE300D95863 = {
+			isa = PBXGroup;
+			children = (
+				B87185F31DA2AFE400D95863 /* PorAprender */,
+				B87186081DA2AFE400D95863 /* PorAprenderTests */,
+				B87185F21DA2AFE400D95863 /* Products */,
+				B87186211DA2B6A700D95863 /* PorAprender copy-Info.plist */,
+				8FAEF3D4F27E07123643BF41 /* Pods */,
+				6659588A7D4E1E047F68837C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B87185F21DA2AFE400D95863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B87185F11DA2AFE400D95863 /* PorAprender.app */,
+				B87186051DA2AFE400D95863 /* PorAprenderTests.xctest */,
+				B87186201DA2B6A700D95863 /* PorAprender Development.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B87185F31DA2AFE400D95863 /* PorAprender */ = {
+			isa = PBXGroup;
+			children = (
+				B87185F41DA2AFE400D95863 /* AppDelegate.swift */,
+				B87185F61DA2AFE400D95863 /* ViewController.swift */,
+				B87185F81DA2AFE400D95863 /* Main.storyboard */,
+				B87185FB1DA2AFE400D95863 /* Assets.xcassets */,
+				B87185FD1DA2AFE400D95863 /* LaunchScreen.storyboard */,
+				B87186001DA2AFE400D95863 /* Info.plist */,
+			);
+			path = PorAprender;
+			sourceTree = "<group>";
+		};
+		B87186081DA2AFE400D95863 /* PorAprenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B87186091DA2AFE400D95863 /* PorAprenderTests.swift */,
+				B871860B1DA2AFE400D95863 /* Info.plist */,
+			);
+			path = PorAprenderTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B87185F01DA2AFE400D95863 /* PorAprender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B871860E1DA2AFE400D95863 /* Build configuration list for PBXNativeTarget "PorAprender" */;
+			buildPhases = (
+				CA569DD1377E64DCA16EDA22 /* [CP] Check Pods Manifest.lock */,
+				B87185ED1DA2AFE400D95863 /* Sources */,
+				B87185EE1DA2AFE400D95863 /* Frameworks */,
+				B87185EF1DA2AFE400D95863 /* Resources */,
+				6A745E54274EA88075BA889F /* [CP] Embed Pods Frameworks */,
+				09A913EAD5B0D76A29603417 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PorAprender;
+			productName = PorAprender;
+			productReference = B87185F11DA2AFE400D95863 /* PorAprender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B87186041DA2AFE400D95863 /* PorAprenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B87186111DA2AFE400D95863 /* Build configuration list for PBXNativeTarget "PorAprenderTests" */;
+			buildPhases = (
+				658039DE9C5EE097F946942E /* [CP] Check Pods Manifest.lock */,
+				B87186011DA2AFE400D95863 /* Sources */,
+				B87186021DA2AFE400D95863 /* Frameworks */,
+				B87186031DA2AFE400D95863 /* Resources */,
+				E4F6A716DAE77345E465256C /* [CP] Embed Pods Frameworks */,
+				7C49BB4F06F462B60C433807 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B87186071DA2AFE400D95863 /* PBXTargetDependency */,
+			);
+			name = PorAprenderTests;
+			productName = PorAprenderTests;
+			productReference = B87186051DA2AFE400D95863 /* PorAprenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B87186141DA2B6A700D95863 /* PorAprender Development */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B871861D1DA2B6A700D95863 /* Build configuration list for PBXNativeTarget "PorAprender Development" */;
+			buildPhases = (
+				86B6A45CD31449A75B057697 /* [CP] Check Pods Manifest.lock */,
+				B87186151DA2B6A700D95863 /* Sources */,
+				B87186181DA2B6A700D95863 /* Frameworks */,
+				B87186191DA2B6A700D95863 /* Resources */,
+				CFE728F6CE43CED27C7725AC /* [CP] Embed Pods Frameworks */,
+				1462AE49CB098A6106EA7A5D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PorAprender Development";
+			productName = PorAprender;
+			productReference = B87186201DA2B6A700D95863 /* PorAprender Development.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B87185E91DA2AFE300D95863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Nicolas Bukstein";
+				TargetAttributes = {
+					B87185F01DA2AFE400D95863 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = QK6788RJ79;
+						ProvisioningStyle = Automatic;
+					};
+					B87186041DA2AFE400D95863 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = QK6788RJ79;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B87185F01DA2AFE400D95863;
+					};
+					B87186141DA2B6A700D95863 = {
+						DevelopmentTeam = QK6788RJ79;
+					};
+				};
+			};
+			buildConfigurationList = B87185EC1DA2AFE300D95863 /* Build configuration list for PBXProject "PorAprender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B87185E81DA2AFE300D95863;
+			productRefGroup = B87185F21DA2AFE400D95863 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B87185F01DA2AFE400D95863 /* PorAprender */,
+				B87186141DA2B6A700D95863 /* PorAprender Development */,
+				B87186041DA2AFE400D95863 /* PorAprenderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B87185EF1DA2AFE400D95863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87185FF1DA2AFE400D95863 /* LaunchScreen.storyboard in Resources */,
+				B87185FC1DA2AFE400D95863 /* Assets.xcassets in Resources */,
+				B87185FA1DA2AFE400D95863 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87186031DA2AFE400D95863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87186191DA2B6A700D95863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B871861A1DA2B6A700D95863 /* LaunchScreen.storyboard in Resources */,
+				B871861B1DA2B6A700D95863 /* Assets.xcassets in Resources */,
+				B871861C1DA2B6A700D95863 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09A913EAD5B0D76A29603417 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PorAprender/Pods-PorAprender-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1462AE49CB098A6106EA7A5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PorAprender Development/Pods-PorAprender Development-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		658039DE9C5EE097F946942E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A745E54274EA88075BA889F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PorAprender/Pods-PorAprender-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C49BB4F06F462B60C433807 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PorAprenderTests/Pods-PorAprenderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86B6A45CD31449A75B057697 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA569DD1377E64DCA16EDA22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE728F6CE43CED27C7725AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PorAprender Development/Pods-PorAprender Development-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F6A716DAE77345E465256C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PorAprenderTests/Pods-PorAprenderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B87185ED1DA2AFE400D95863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87185F71DA2AFE400D95863 /* ViewController.swift in Sources */,
+				B87185F51DA2AFE400D95863 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87186011DA2AFE400D95863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B871860A1DA2AFE400D95863 /* PorAprenderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87186151DA2B6A700D95863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87186161DA2B6A700D95863 /* ViewController.swift in Sources */,
+				B87186171DA2B6A700D95863 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B87186071DA2AFE400D95863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B87185F01DA2AFE400D95863 /* PorAprender */;
+			targetProxy = B87186061DA2AFE400D95863 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B87185F81DA2AFE400D95863 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B87185F91DA2AFE400D95863 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B87185FD1DA2AFE400D95863 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B87185FE1DA2AFE400D95863 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B871860C1DA2AFE400D95863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B871860D1DA2AFE400D95863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B871860F1DA2AFE400D95863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB8611B1801CEC0910986BB0 /* Pods-PorAprender.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QK6788RJ79;
+				INFOPLIST_FILE = PorAprender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poraprender.PorAprender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B87186101DA2AFE400D95863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ECA935DB7A9FF2275410370 /* Pods-PorAprender.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QK6788RJ79;
+				INFOPLIST_FILE = PorAprender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poraprender.PorAprender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B87186121DA2AFE400D95863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B68A0600337791C611A268 /* Pods-PorAprenderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QK6788RJ79;
+				INFOPLIST_FILE = PorAprenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poraprender.PorAprenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PorAprender.app/PorAprender";
+			};
+			name = Debug;
+		};
+		B87186131DA2AFE400D95863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37079968B48156D026321AE9 /* Pods-PorAprenderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QK6788RJ79;
+				INFOPLIST_FILE = PorAprenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poraprender.PorAprenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PorAprender.app/PorAprender";
+			};
+			name = Release;
+		};
+		B871861E1DA2B6A700D95863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCA64E2D19DC3850199011E3 /* Pods-PorAprender Development.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QK6788RJ79;
+				INFOPLIST_FILE = "PorAprender copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poraprender.PorAprender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B871861F1DA2B6A700D95863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C671EE266D054D64275E1A /* Pods-PorAprender Development.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QK6788RJ79;
+				INFOPLIST_FILE = "PorAprender copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poraprender.PorAprender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B87185EC1DA2AFE300D95863 /* Build configuration list for PBXProject "PorAprender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B871860C1DA2AFE400D95863 /* Debug */,
+				B871860D1DA2AFE400D95863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B871860E1DA2AFE400D95863 /* Build configuration list for PBXNativeTarget "PorAprender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B871860F1DA2AFE400D95863 /* Debug */,
+				B87186101DA2AFE400D95863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B87186111DA2AFE400D95863 /* Build configuration list for PBXNativeTarget "PorAprenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B87186121DA2AFE400D95863 /* Debug */,
+				B87186131DA2AFE400D95863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B871861D1DA2B6A700D95863 /* Build configuration list for PBXNativeTarget "PorAprender Development" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B871861E1DA2B6A700D95863 /* Debug */,
+				B871861F1DA2B6A700D95863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B87185E91DA2AFE300D95863 /* Project object */;
+}
